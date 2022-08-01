@@ -1,0 +1,57 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: black;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.orange {
+    background-color: #FF9500;
+    color: white;
+}
+
+.orange:focus {
+    background-color: white;
+    color: #FF9500;
+    transition: .2s;
+}
+
+.gray {
+    background-color: #505050;
+    color: white;
+}
+
+.gray:focus {
+    background-color: #929292;
+    transition: .2s;
+}
+
+.lighter-gray:focus {
+    background-color: white;
+    transition: .2s;
+}
+
+.result{ 
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.3em;
+    font-size: 4em;
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 0.5rem;
+    overflow: hidden;
+    flex-wrap: wrap-reverse;
+}
